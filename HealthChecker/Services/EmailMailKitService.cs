@@ -45,8 +45,8 @@ public class EmailMailKitService
                 );
 
                 await client.AuthenticateAsync(
-                    "HealthCheckTesterKey",
-                    "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"
+                    "",
+                    ""
                 );
 
                 await client.SendAsync(message);

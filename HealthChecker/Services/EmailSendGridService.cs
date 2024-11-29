@@ -21,7 +21,7 @@ public class EmailSendGridService
         List<HealthCheck> failedEndpoints
     )
     {
-        var apiKey = "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";
+        var apiKey = "";
         var client = new SendGridClient(apiKey);
         var from = new EmailAddress("test@example.com", "Example User");
         var subject = "Sending with SendGrid is Fun";
